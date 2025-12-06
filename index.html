@@ -36,12 +36,18 @@
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" class="active">Halaman Utama</a></li>
-          <li><a href="index.html#about">Tentang Kami</a></li>
-          <li><a href="index.html#services">Layanan & Operasional</a></li>
-          <li><a href="index.html#organizationStructure">Struktur Organisasi</a></li>
-          <li><a href="index.html#gallery">Galeri Armada</a></li>
-          <li><a href="index.html#contact">Hubungi Kami</a></li>
+          <li><a href="index.html#hero" data-translate="menu_home" class="active">Halaman Utama</a></li>
+          <li><a href="index.html#about" data-translate="menu_about">Tentang Kami</a></li>
+          <li><a href="index.html#services" data-translate="menu_services">Layanan & Operasional</a></li>
+          <li><a href="index.html#organizationStructure" data-translate="menu_structure">Struktur Organisasi</a></li>
+          <li><a href="index.html#gallery" data-translate="menu_gallery">Galeri Armada</a></li>
+          <li><a href="index.html#contact" data-translate="menu_contact">Hubungi Kami</a></li>
+          <li class="dropdown lang-switcher"><a href="#" class="active"><span> 🇮🇩 ID </span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-active">
+              <li><a href="#" class="lang-item" data-lang="id" data-label="ID">🇮🇩 ID</a></li>
+              <li><a href="#" class="lang-item" data-lang="en" data-label="EN">🇬🇧 EN</a></li>
+            </ul>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -50,26 +56,24 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
     <section id="hero" class="hero section">
       <div class="hero-bg">
         <img src="assets/img/hero-bg-light.webp" alt="">
       </div>
       <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-up">Selamat Datang di Diamond Taxi</h1>
-          <p data-aos="fade-up" data-aos-delay="100">
+          <h1 data-aos="fade-up" data-translate="welcome_title">Selamat Datang di Diamond Taxi</h1>
+          <p data-aos="fade-up" data-aos-delay="100" data-translate="welcome_subtitle">
             Anda Nyaman dan Aman Bersama Kami,
             Komitmen Kami Segalanya Untuk Anda<br>
           </p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#about" class="btn-get-started">Mulai Sekarang</a>
+            <a href="#about" data-translate="btn_start" class="btn-get-started">Mulai Sekarang</a>
           </div>
           <img src="assets/img/design.png" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>
       </div>
     </section>
-    <!-- /Hero Section -->
 
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section light-background">
@@ -79,8 +83,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi-taxi-front"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Layanan Antar Jemput</a></h4>
-                <p class="description">
+                <h4 class="title"><a href="#" data-translate="featured_title_1" class="stretched-link">Layanan Antar Jemput</a></h4>
+                <p class="description" data-translate="featured_desc_1">
                   Antar Jemput Reguler, Harian, dan Bandara/Stasiun.
                 </p>
               </div>
@@ -91,8 +95,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Layanan Korporasi</a></h4>
-                <p class="description">
+                <h4 class="title"><a href="#" data-translate="featured_title_2" class="stretched-link">Layanan Korporasi</a></h4>
+                <p class="description" data-translate="featured_desc_2">
                   Kerjasama dengan perusahaan / bisnis untuk kebutuhan transportasi.
                 </p>
               </div>
@@ -103,8 +107,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-clock"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Layanan 24/7</a></h4>
-                <p class="description">Layanan taksi yang tersedia sepanjang waktu, baik siang maupun malam.</p>
+                <h4 class="title"><a href="#" data-translate="featured_title_3" class="stretched-link">Layanan 24/7</a></h4>
+                <p class="description" data-translate="featured_desc_3">Layanan taksi yang tersedia sepanjang waktu, baik siang maupun malam.</p>
               </div>
             </div>
           </div>
@@ -118,39 +122,36 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="100">
-            <h3>Tentang Kami</h3>
+            <h3 data-translate="about_title">Tentang Kami</h3>
             <b>PT. Intan Pusaka Pratama</b><br>
-            <p class="justify-text">
+            <p class="justify-text" data-translate="about_intro1">
               PT. Intan Pusaka Pratama (IPP) adalah perusahaan jasa transportasi terpercaya yang berfokus pada layanan taksi di wilayah Jabodetabek. Didirikan pada tahun 2004, IPP senantiasa beradaptasi dengan perkembangan industri transportasi yang dinamis untuk memastikan kepuasan pelanggan melalui manajemen profesional dan layanan berkualitas.
             </p>
             <b>Intan Pusaka Trans Sdn. Bhd</b><br>
-            <p class="justify-text">
+            <p class="justify-text" data-translate="about_intro2">
               Intan Pusaka Trans Sdn. Bhd. (“IPTSB”), yang didirikan di Malaysia berdasarkan Undang-Undang Perusahaan 2016, telah didirikan oleh para pemegang saham PT Intan Pusaka Pratama (“PT IPP”) sebagai perusahaan Malaysia yang berdedikasi untuk mempelopori ekspansi strategis PT IPP ke sektor taksi Kendaraan Listrik (EV) di Indonesia. PT IPP, operator berpengalaman selama 20 tahun dengan merek "Diamond Taxi", merupakan pelopor dalam transportasi berkelanjutan di Indonesia. Perusahaan saat ini mengoperasikan 100 kendaraan di wilayah Jabodetabek dengan lisensi A yang mengizinkan hingga 400 taksi dan memegang otorisasi khusus untuk menggunakan taksi EV di dalam Area Operasional Bandara.
             </p>
             <br>
-            <h5 class="mb-3">Visi & Misi</h5>
-            <p><strong>Visi:</strong>
-            <p>Menjadi perusahaan jasa transportasi yang terpercaya dan profesional.</p>
-            <p><strong>Misi:</strong></p>
+            <h5 class="mb-3" data-translate="vision_mission_title">Visi & Misi</h5>
+            <p><strong data-translate="vision_title">Visi:</strong>
+            <p data-translate="vision">Menjadi perusahaan jasa transportasi yang terpercaya dan profesional.</p>
+            <p><strong data-translate="mission_title">Misi:</strong></p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Memberikan rasa aman dan nyaman bagi pelanggan.</li>
-              <li><i class="bi bi-check-circle"></i> Menyediakan armada yang selalu siap melayani.</li>
-              <li><i class="bi bi-check-circle"></i> Mengembangkan manajemen melalui inovasi.</li>
+              <li data-translate="mission_1"><i class="bi bi-check-circle"></i> Memberikan rasa aman dan nyaman bagi pelanggan.</li>
+              <li data-translate="mission_2"><i class="bi bi-check-circle"></i> Menyediakan armada yang selalu siap melayani.</li>
+              <li data-translate="mission_3"><i class="bi bi-check-circle"></i> Mengembangkan manajemen melalui inovasi.</li>
             </ul>
             <br>
-            <h5 class="mb-3">Legalitas Perusahaan</h5>
+            <h5 class="mb-3" data-translate="legalitas_title_1">Legalitas Perusahaan</h5>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <i class="bi bi-dot"></i>
-                Akta Pendirian Perseroan No.20 Tgl.19-10-2004 + SK Kemenkumham
+              <li class="list-group-item" >
+                <i class="bi bi-dot"></i><span data-translate="legalitas_subtitle_1">
+                Akta Pendirian Perseroan No.20 Tgl.19-10-2004 + SK Kemenkumham.
+                </span>
               </li>
-            </ul>
-            <br>
-            <h5 class="mb-3">Undang-Undang Perusahaan 2016 (ACT 777)</h5>
-            <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <i class="bi bi-dot"></i>
-                Intan Pusaka Trans Sdn. Bhd. 20250146895 (1648303-P)
+                Intan Pusaka Trans Sdn. Bhd. 20250146895 (1648303-P).
               </li>
             </ul>
           </div>
@@ -163,8 +164,8 @@
     <section id="services" class="services section light-background">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Layanan & Operasional</h2>
-        <p>Kami menyediakan layanan taksi profesional dan terpercaya untuk memenuhi kebutuhan transportasi Anda. Dengan armada kendaraan yang nyaman dan mitra pengemudi berpengalaman, kami siap mengantar Anda ke tujuan dengan aman dan tepat waktu. Kami beroperasi 24 jam sehari, 7 hari seminggu, sehingga Anda dapat memesan layanan kapan saja sesuai kebutuhan.</p>
+        <h2 data-translate="service_title">Layanan & Operasional</h2>
+        <p data-translate="service_description">Kami menyediakan layanan taksi profesional dan terpercaya untuk memenuhi kebutuhan transportasi Anda. Dengan armada kendaraan yang nyaman dan mitra pengemudi berpengalaman, kami siap mengantar Anda ke tujuan dengan aman dan tepat waktu. Kami beroperasi 24 jam sehari, 7 hari seminggu, sehingga Anda dapat memesan layanan kapan saja sesuai kebutuhan.</p>
       </div>
       <!-- End Section Title -->
 
@@ -174,8 +175,8 @@
             <div class="service-item item-cyan position-relative">
               <i class="bi bi-taxi-front icon"></i>
               <div>
-                <h3>Layanan Antar-Jemput</h3>
-                <p>Solusi transportasi harian Anda untuk perjalanan ke kantor, sekolah, atau tempat lainnya.</p>
+                <h3 data-translate="service_point_1">Layanan Antar-Jemput</h3>
+                <p data-translate="service_point_1_desc">Solusi transportasi harian Anda untuk perjalanan ke kantor, sekolah, atau tempat lainnya.</p>
               </div>
             </div>
           </div>
@@ -184,8 +185,8 @@
             <div class="service-item item-orange position-relative">
               <i class="bi bi-airplane icon"></i>
               <div>
-                <h3>Taksi Bandara</h3>
-                <p>Layanan cepat dan nyaman menuju atau dari bandara dengan harga bersaing.</p>
+                <h3 data-translate="service_point_2">Taksi Bandara</h3>
+                <p data-translate="service_point_2_desc">Layanan cepat dan nyaman menuju atau dari bandara dengan harga bersaing.</p>
               </div>
             </div>
           </div>
@@ -194,8 +195,8 @@
             <div class="service-item item-indigo position-relative">
               <i class="bi bi-briefcase icon"></i>
               <div>
-                <h3>Layanan Korporasi</h3>
-                <p>Kerjasama dengan perusahaan untuk kebutuhan transportasi karyawan</p>
+                <h3 data-translate="service_point_3">Layanan Korporasi</h3>
+                <p data-translate="service_point_3_desc">Kerjasama dengan perusahaan untuk kebutuhan transportasi karyawan.</p>
               </div>
             </div>
           </div>
@@ -204,8 +205,8 @@
             <div class="service-item item-teal position-relative">
               <i class="bi bi-shield-check icon"></i>
               <div>
-                <h3>Standar Keamanan Tinggi</h3>
-                <p>Semua kendaraan kami dilengkapi dengan fitur keamanan modern untuk melindungi penumpang</p>
+                <h3 data-translate="service_point_4">Standar Keamanan Tinggi</h3>
+                <p class="service_point_4_desc">Semua kendaraan kami dilengkapi dengan fitur keamanan modern untuk melindungi penumpang.</p>
               </div>
             </div>
           </div>
@@ -214,8 +215,8 @@
             <div class="service-item item-pink position-relative">
               <i class="bi bi-stars icon"></i>
               <div>
-                <h3>Kebersihan dan Kenyamanan</h3>
-                <p>Setiap kendaraan selalu dalam kondisi bersih dan nyaman.</p>
+                <h3 data-translate="service_point_5">Kebersihan dan Kenyamanan</h3>
+                <p data-translate="service_point_5_desc">Setiap kendaraan selalu dalam kondisi bersih dan nyaman.</p>
               </div>
             </div>
           </div>
@@ -224,8 +225,8 @@
             <div class="service-item item-red position-relative">
               <i class="bi bi-headset icon"></i>
               <div>
-                <h3>Dukungan Pelanggan</h3>
-                <p>Tim layanan pelanggan kami siap membantu Anda selama 24/7 untuk setiap pertanyaan atau keluhan</p>
+                <h3 data-translate="service_point_6">Dukungan Pelanggan</h3>
+                <p data-translate="service_point_6_desc">Tim layanan pelanggan kami siap membantu Anda selama 24/7 untuk setiap pertanyaan atau keluhan.</p>
               </div>
             </div>
           </div>
@@ -237,8 +238,8 @@
     <!-- Organization Structure Section -->
     <section id="organizationStructure" class="services section">
       <div class="container section-title structure" data-aos="fade-up">
-        <h2>Struktur Organisasi</h2>
-        <p class="fw-bold">Dewan Direksi PT. Intan Pusaka Pratama</p>
+        <h2 data-translate="structure_title">Struktur Organisasi</h2>
+        <p class="fw-bold" data-translate="structure_sub_1">Dewan Direksi PT. Intan Pusaka Pratama</p>
       </div>
 
       <div class="container mt-0">
@@ -246,19 +247,19 @@
           <div class="col-lg-4 content" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Direktur Utama</h5>
+                <h5 class="card-title" data-translate="stucture_position_1">Direktur Utama</h5>
                 <p class="card-text">DR. Daniel S. Palit, SE</p>
               </div>
             </div>
             <div class="card mt-3">
               <div class="card-body">
-                <h5 class="card-title">Direktur</h5>
+                <h5 class="card-title" data-translate="stucture_position_2">Direktur</h5>
                 <p class="card-text">Jefersonny S. Palit, S.M.</p>
               </div>
             </div>
             <div class="card mt-3">
               <div class="card-body">
-                <h5 class="card-title">Komisaris</h5>
+                <h5 class="card-title" data-translate="stucture_position_3">Komisaris</h5>
                 <p class="card-text">Sanderine Juliana Sumolang</p>
               </div>
             </div>
@@ -268,7 +269,7 @@
 
       <br>
       <div class="container section-title mt-4 structure" data-aos="fade-up">
-        <p class="fw-bold">Dewan Direksi Intan Pusaka Trans Sdn. Bhd</p>
+        <p class="fw-bold" data-translate="structure_sub_2">Dewan Direksi Intan Pusaka Trans Sdn. Bhd</p>
       </div>
 
       <div class="container mt-0">
@@ -276,19 +277,19 @@
           <div class="col-lg-4 content" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Direktur</h5>
+                <h5 class="card-title" data-translate="stucture_position_2">Direktur</h5>
                 <p class="card-text">DR. Daniel S. Palit, SE</p>
               </div>
             </div>
             <div class="card mt-3">
               <div class="card-body">
-                <h5 class="card-title">Direktur</h5>
+                <h5 class="card-title" data-translate="stucture_position_2">Direktur</h5>
                 <p class="card-text">Jefersonny S. Palit, S.M.</p>
               </div>
             </div>
             <div class="card mt-3">
               <div class="card-body">
-                <h5 class="card-title">Direktur</h5>
+                <h5 class="card-title" data-translate="stucture_position_2">Direktur</h5>
                 <p class="card-text">Saofan Mohammad Nor</p>
               </div>
             </div>
@@ -302,8 +303,8 @@
     <section id="gallery" class="services section light-background">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Galeri Armada</h2>
-        <p>Koleksi foto dari armada yang kami miliki</p>
+        <h2 data-translate="gallery_title">Galeri Armada</h2>
+        <p data-translate="gallery_subtitle">Koleksi foto dari armada yang kami miliki</p>
       </div>
       <!-- End Section Title -->
       <div class="container">
@@ -314,7 +315,7 @@
               <img src="assets/img/gallery0.webp" loading="lazy" class="card-img-top glightbox" data-gallery="galeri-armada" alt="Toyota Avanza Armada Tahun 2022 - 2023">
               <div class="card-body text-center">
                 <h5 class="card-title">Toyota Avanza</h5>
-                <p class="card-text">Armada Tahun 2022 - 2023</p>
+                <p class="card-text" data-translate="car_1">Armada Tahun 2022 - 2023</p>
               </div>
             </div>
             </div>
@@ -326,7 +327,7 @@
               <img src="assets/img/gallery1.webp" loading="lazy" class="card-img-top glightbox" data-gallery="galeri-armada" alt="Geely MK Armada Tahun 202">
               <div class="card-body text-center">
                 <h5 class="card-title">Geely MK</h5>
-                <p class="card-text">Armada Tahun 2022</p>
+                <p class="card-text" data-translate="car_2">Armada Tahun 2022</p>
               </div>
             </div>
             </div>
@@ -338,7 +339,7 @@
               <img src="assets/img/gallery2.webp" loading="lazy" class="card-img-top glightbox" data-gallery="galeri-armada" alt="Wuling Confero Armada Tahun 2022">
               <div class="card-body text-center">
                 <h5 class="card-title">Wuling Confero</h5>
-                <p class="card-text">Armada Tahun 2022</p>
+                <p class="card-text" data-translate="car_2">Armada Tahun 2022</p>
               </div>
             </div>
           </div>
@@ -350,7 +351,7 @@
               <img src="assets/img/gallery3.webp" loading="lazy" class="card-img-top glightbox" data-gallery="galeri-armada" alt="Honda Mobilio Armada Tahun 2022">
               <div class="card-body text-center">
                 <h5 class="card-title">Honda Mobilio</h5>
-                <p class="card-text">Armada Tahun 2022</p>
+                <p class="card-text" data-translate="car_2">Armada Tahun 2022</p>
               </div>
             </div>
             </div>
@@ -362,7 +363,7 @@
               <img src="assets/img/gallery4.webp" loading="lazy" class="card-img-top glightbox" data-gallery="galeri-armada" alt="Proton New Saga FLX 2012">
               <div class="card-body text-center">
                 <h5 class="card-title">Proton New Saga FLX 2012</h5>
-                <p class="card-text">Peremajaan Armada Tahun 2012</p>
+                <p class="card-text" data-translate="car_3">Peremajaan Armada Tahun 2012</p>
               </div>
             </div>
             </div>
@@ -374,7 +375,7 @@
               <img src="assets/img/gallery5.webp" loading="lazy" class="card-img-top glightbox" data-gallery="galeri-armada" alt="Toyota Limo, Proton Wira, Kia Rio">
               <div class="card-body text-center">
                 <h5 class="card-title">Toyota Limo, Proton Wira, Kia Rio</h5>
-                <p class="card-text">Armada Awal Berdiri 2008</p>
+                <p class="card-text" data-translate="car_4">Armada Awal Berdiri 2008</p>
               </div>
             </div>
             </div>
@@ -388,8 +389,8 @@
     <section id="contact" class="contact section pb-0">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Hubungi Kami</h2>
-        <p>Jika Anda membutuhkan informasi lebih lanjut, memiliki saran, atau ingin berbicara langsung dengan tim kami, jangan ragu untuk menghubungi kami. Anda dapat menghubungi kami melalui email ke <a href="mailto:ippsiliwangi@gmail.com">ippsiliwangi@gmail.com</a>. Kami akan segera merespons dan memberikan bantuan yang Anda butuhkan.</p>
+        <h2 data-translate="contact_title">Hubungi Kami</h2>
+        <p data-translate="contact_sub">Jika Anda membutuhkan informasi lebih lanjut, memiliki saran, atau ingin berbicara langsung dengan tim kami, jangan ragu untuk menghubungi kami. Anda dapat menghubungi kami melalui email ke <a href="mailto:ippsiliwangi@gmail.com">ippsiliwangi@gmail.com</a>. Kami akan segera merespons dan memberikan bantuan yang Anda butuhkan.</p>
       </div>
       <!-- End Section Title -->
 
@@ -398,7 +399,7 @@
           <div class="col-lg-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt"></i>
-              <h3>Kantor Pusat</h3>
+              <h3 data-translate="head_office">Kantor Pusat</h3>
               <p class="mx-3 text-center">
                 <b>PT. Intan Pusaka Pratama</b><br>
                 Jl. Diamond No.1, Tlajung Udik, Gunung Putri, Bogor, Jawa Barat, Indonesia 16961
@@ -412,7 +413,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-geo-alt"></i>
-              <h3>Kantor Pusat</h3>
+              <h3 data-translate="head_office">Kantor Pusat</h3>
               <p class="mx-3 text-center">
                 <b>Intan Pusaka Trans Sdn. Bhd</b><br>
                 29-2, Jalan Usj Sentral 3, Subang Light Industrial Park,
@@ -432,7 +433,7 @@
   <footer id="footer" class="footer position-relative light-bg-color">
     <div class="container copyright text-center text-light mt-4">
       <p>
-        &copy; 2024 PT. Intan Pusaka Pratama. All Rights Reserved.
+        &copy; 2025 PT. Intan Pusaka Pratama. All Rights Reserved.
       </p>
     </div>
   </footer>
@@ -452,5 +453,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/translate.js"></script>
 </body>
 </html>
