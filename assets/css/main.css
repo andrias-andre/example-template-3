@@ -387,6 +387,10 @@ h6 {
     top: 100%;
     visibility: visible;
   }
+
+  .lang-switcher ul {
+    width: 100px;
+  }
 }
 
 /* Mobile Navigation */
