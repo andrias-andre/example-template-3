@@ -25,12 +25,17 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/favicon.png" rel="apple-touch-icon">
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
-  <link href="assets/vendor/flag-icons/css/flag-icons.min.css" rel="stylesheet"/>
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style"
+    onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css"></noscript>
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css" 
+        media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/vendor/flag-icons/css/flag-icons.min.css"
+        media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/vendor/aos/aos.css"
+        media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css"
+        media="print" onload="this.media='all'">
   <!-- Main CSS File -->
   <link href="assets/css/minified.css" rel="stylesheet">
 </head>
