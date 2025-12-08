@@ -160,7 +160,10 @@
     });
 
     // Update dropdown label
-    const label = lang === "id" ? "🇮🇩 ID" : "🇬🇧 EN";
+    const label =
+      lang === "id"
+        ? `<span class="fi fi-id"></span>&nbsp; ID`
+        : `<span class="fi fi-gb"></span>&nbsp; EN`;
     document.querySelector(".lang-switcher > a").innerHTML =
       label + ' <i class="bi bi-chevron-down"></i>';
   }
