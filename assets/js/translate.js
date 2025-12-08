@@ -12,7 +12,7 @@
       welcome_title: "Selamat Datang di Diamond Taxi",
       welcome_subtitle:
         "Anda Nyaman dan Aman Bersama Kami, Komitmen Kami Segalanya Untuk Anda",
-      btn_start: "Mulai Sekarang",
+      btn_start: "Pelajari Tentang Diamond Taxi",
       featured_title_1: "Layanan Antar Jemput",
       featured_desc_1: "Antar Jemput Reguler, Harian, dan Bandara/Stasiun.",
       featured_title_2: "Layanan Korporasi",
@@ -84,7 +84,7 @@
       welcome_title: "Welcome to Diamond Taxi",
       welcome_subtitle:
         "Comfortable and Safe with Us — Your Satisfaction Is Our Commitment",
-      btn_start: "Get Started",
+      btn_start: "Learn About Diamond Taxi",
       featured_title_1: "Pickup & Drop-off Services",
       featured_desc_1: "Regular, daily, and airport/train transport services.",
       featured_title_2: "Corporate Services",
